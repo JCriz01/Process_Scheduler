@@ -12,7 +12,6 @@ using namespace std;
 
 class JobScheduler {
     int numberOfProcesses;
-    vector<Process> queue;
     int quantumTime;
     double averageWaitTime;
     double averageTurnAroundTime;

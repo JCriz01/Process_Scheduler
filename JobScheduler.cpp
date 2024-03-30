@@ -406,7 +406,6 @@ void JobScheduler::shortestRemainingTime() {
     }
 }
 
-
 void JobScheduler::printJobList() {
 string output = "----------------------------\n";
     for(int i = 0; i < jobList.size(); i++){
